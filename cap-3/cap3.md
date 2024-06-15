@@ -253,3 +253,114 @@ As funções em Rust podem retornar um valor utilizando a palavra reservada `ret
 Neste capítulo, aprendemos sobre funções em Rust. Aprendemos que as funções são blocos de código que realizam uma tarefa específica. Aprendemos que as funções são declaradas com a palavra reservada `fn`, seguida do nome da função e dos parâmetros da função. Aprendemos sobre os parâmetros de uma função e como declará-los. Aprendemos sobre declarações e expressões em Rust e como elas são utilizadas em funções. Aprendemos sobre o retorno de funções e como as funções podem retornar um valor.
 
 ## 3.4 - Controle de Fluxo
+
+é capacidade de executar instruções depedendo de condições booleanas
+
+### 3.4.1 - If
+
+```rs
+    fn main(){
+        let numero = 5;
+
+        if numero < 5 {
+            println!("O número é menor que 5");
+        } else if numero == 5 {
+            println!("O número é igual a 5");
+        } else {
+            println!("O número é maior que 5");
+        }
+
+        //ternário
+        let resultado = if numero < 5 { "menor que 5" } else { "maior que 5" }; // os dois valores devem ser do mesmo tipo
+    }
+
+```
+
+### 3.4.2 - Loop
+
+```rs
+    fn main(){
+        let mut contador = 0;
+
+        loop {
+            contador += 1;
+
+            if contador == 10 {
+                break;
+            }
+        }
+
+        println!("O contador é: {}", contador);
+    }
+
+    // é possivel atribuir um valor a uma variável com o loop
+    fn main(){
+        let mut contador = 0;
+
+        let resultado = loop {
+            contador += 1;
+
+            if contador == 10 {
+                break contador; // é possível retornar um valor do loop com a palavra reservada break ou return
+            }
+        };
+
+        println!("O resultado é: {}", resultado);
+    }
+
+```
+
+### 3.4.3 - rotúlo de loop
+
+Serve para identificar um loop específico, suponha que você tenha um loop dentro de outro loop e deseja sair do loop externo, você pode usar um rótulo para identificar o loop externo.
+
+```rs
+    //loop de 1 a 10
+    'externo: for i in 1..=10 {
+        //loop de 1 a 10
+        println!("O valor de i é: {}", i);
+        'interno: for j in 1..=10 {
+            if i == 5 && j == 5 {
+                println!("O valor de i é: {} e o valor de j é: {}", i, j);
+                break 'externo; // sai do loop externo
+            }
+        }
+    }
+```
+
+### 3.4.4 - While
+
+```rs
+    fn main(){
+        let mut contador = 0;
+
+        while contador < 10 {
+            contador += 1;
+        }
+
+        println!("O contador é: {}", contador);
+    }
+
+```
+
+### 3.4.5 - For
+
+```rs
+    fn main(){
+        let array = [10, 20, 30, 40, 50];
+
+        for elemento in array{
+            println!("O elemento é: {}", elemento);
+        }
+
+                // for invertido
+        for numero in (1..4).rev() {
+            println!("O número é: {}", numero);
+        }
+    }
+
+```
+
+### Conclusão
+
+Neste capítulo, aprendemos sobre controle de fluxo em Rust. Aprendemos sobre a instrução if e como utilizá-la para executar instruções dependendo de condições booleanas. Aprendemos sobre a instrução loop e como utilizá-la para criar loops infinitos. Aprendemos sobre a instrução while e como utilizá-la para criar loops baseados em condições. Aprendemos sobre a instrução for e como utilizá-la para iterar sobre coleções de elementos. Aprendemos sobre rótulos de loop e como utilizá-los para identificar loops específicos.
