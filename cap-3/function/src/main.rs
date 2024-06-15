@@ -48,5 +48,5 @@ fn soma(a: i32, b: i32) -> i32 {
 }
 
 fn plus_one(x: i32) -> i32 {
-   return  x + 1;
+   return  x + 1
 }

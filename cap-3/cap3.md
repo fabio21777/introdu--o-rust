@@ -237,13 +237,17 @@ As funções em Rust podem retornar um valor utilizando a palavra reservada `ret
         let y = 10;
 
         let resultado = soma(x, y);
+        let resultado = plus_one(resultado);
 
         println!("O resultado da soma é: {}", resultado);
     }
 
     fn soma(a: i32, b: i32) -> i32 {
-        //a + b; // erro: a expressão não retorna um valor
         a + b
+    }
+
+    fn plus_one(x: i32) -> i32 {
+        return  x + 1; // é possível retornar um valor com a palavra reservada return nesse caso é opcional o ponto e vírgula
     }
 
 ```
