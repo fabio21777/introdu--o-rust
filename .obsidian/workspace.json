@@ -1,0 +1,187 @@
+{
+  "main": {
+    "id": "b8b05b405a0dcc78",
+    "type": "split",
+    "children": [
+      {
+        "id": "442fe2b7eb848a22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b4af5678a6e6fd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "h3. Notas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "de54ce66db8cd99f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "982eaee4e6ab1c92",
+    "type": "split",
+    "children": [
+      {
+        "id": "a78f50d6d6b896b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2982c76e09c2694",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e5b09b9a793eaf3f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b5d8f108b6e2abd2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b5fcfa612a3a69d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e20959cc813b571",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4becf0e03b92fc06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "h3. Notas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "22928517c0152250",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "h3. Notas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6814c5a8e5414d80",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb8f71288100a375",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "h3. Notas.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "3b4af5678a6e6fd9",
+  "lastOpenFiles": [
+    "README.md",
+    "cap-1/hello cargo.md",
+    "Sem título.canvas",
+    "h3. Notas.md",
+    "h3. Notas.html",
+    "Pasted image 20240609183012.png",
+    "Pasted image 20240609182509.png",
+    "Pasted image 20240609181949.png",
+    "Pasted image 20240609181448.png",
+    "Pasted image 20240609180057.png",
+    "Pasted image 20240609175952.png",
+    "Pasted image 20240608113341.png",
+    "Pasted image 20240608113222.png",
+    "Pasted image 20240608113043.png",
+    "cap-1/hello_cargo/target/debug/hello_cargo.d",
+    "cap-1/hello_cargo/target/debug/hello_cargo",
+    "cap-1/hello_cargo/target/debug/deps/hello_cargo-3927e6f5ad229956",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/yotwxn2cgw6w62s.o",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/work-products.bin",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/query-cache.bin",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/dep-graph.bin",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/4dk6zuf1rwlnuzzx.o",
+    "cap-1/hello_cargo/target/debug/incremental/hello_cargo-35tvay3tk63df/s-gwxgewl7np-7w1sc5-zeh0ena63605o7l0wmssrzno/3yn0gloktnzo7heo.o",
+    "cap-1/hello world.md",
+    "cap-1/Instalação.md",
+    "Pasted image 20240608104752.png",
+    "Introdução.md"
+  ]
+}
