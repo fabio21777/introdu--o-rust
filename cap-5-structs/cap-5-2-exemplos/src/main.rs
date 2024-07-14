@@ -10,12 +10,16 @@ fn main() {
 
     //let rect1 = (30, 50); // usando tupla para representar um retângulo
 
-    let rect1: Rectangle = Rectangle { width: 30, height: 50 };
-    let rect2: Rectangle = Rectangle { width: 10, height: 40 };
+    let rect1: Rectangle = Rectangle {
+        width: 30,
+        height: 50,
+    };
+    let rect2: Rectangle = Rectangle {
+        width: 10,
+        height: 40,
+    };
 
-
-
-    println!(" A area do retângulo é: {}", area(rect1));
+    println!(" A area do retângulo é: {}", area(rectangle));
     println!(" A area do retângulo é: {}", area_ref(&rect2));
 
     //println!("rect1 altura é {}", rect1.height); // isso da erro, pos o valor de rect1 foi movido para a função area
@@ -38,6 +42,6 @@ fn area(rectangle: Rectangle) -> u32 {
     rectangle.height * rectangle.width
 }
 
-fn area_ref(rectangle: &Rectangle) -> u32{
+fn area_ref(rectangle: &Rectangle) -> u32 {
     rectangle.height * rectangle.width
 }
